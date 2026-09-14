@@ -19,3 +19,10 @@
 ## Phase 2 before leaving Squarespace
 
 Migrate approved media assets away from Squarespace, update references, then regression-test the GitHub-hosted copy before canceling or changing the Squarespace site.
+
+## RC V2.1 — Media consistency correction
+
+- Keeps all portfolio video sources on the same Squarespace HLS delivery pattern.
+- Removes the proposed one-off local StreamScout MP4 approach.
+- Preserves the email "Copy email" fix.
+- StreamScout's failing HLS source should be diagnosed/repaired at the source rather than by introducing a unique hosting path.

@@ -28,3 +28,11 @@ RC V1 intentionally preserves the live portfolio's existing Squarespace-hosted i
 ## Copyright
 
 Copyright © Amy J. Watson-Markley. No open-source license is granted by this repository.
+
+## RC V2.1 consistency correction
+
+This release keeps **one media-delivery pattern** for the portfolio: existing Squarespace-hosted HLS media remains unchanged for every video, including StreamScout.
+
+Only the email interaction changed: email buttons now copy the public address instead of invoking a registered webmail handler.
+
+StreamScout media troubleshooting is intentionally separate from this release. Do not special-case one exhibit with a local MP4 while the rest of the portfolio still uses Squarespace HLS.

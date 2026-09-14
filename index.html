@@ -597,13 +597,20 @@
   #bpl .all-projects__grid--range{grid-template-columns:1fr}
 }
 #bpl .ava-play-console{width:min(1120px,92%);margin:18px auto 34px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:30px;align-items:center;padding:24px;border:1px solid rgba(93,67,113,.13);border-radius:18px;background:linear-gradient(120deg,#faf7fb,#f3edf7)}#bpl .ava-play-console__visual img{width:100%;display:block;border-radius:12px;box-shadow:0 12px 28px rgba(61,45,74,.11)}#bpl .ava-play-console__copy h2{margin:4px 0 10px;color:#35273f;font:650 clamp(28px,3vw,40px)/1 var(--serif)}#bpl .ava-play-console__copy>p:not(.eyebrow):not(.ava-play-console__note){color:#6c6470;font-size:11px;line-height:1.55}#bpl .ava-play-console__proof{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:16px 0}#bpl .ava-play-console__proof span{padding:9px 10px;border:1px solid rgba(93,67,113,.11);background:rgba(255,255,255,.55);color:#685f6c;font-size:8.5px;line-height:1.35}#bpl .ava-play-console__proof b{display:block;margin-bottom:2px;color:#6d36a6;font:900 7px var(--mono);letter-spacing:.08em}#bpl .ava-play-console__button{min-height:42px;padding:0 16px;border:0;border-radius:999px;background:#6d36a6;color:#fff;font-weight:850;cursor:pointer}#bpl .ava-play-console__note{margin:9px 0 0;color:#8a7e8e;font-size:7.5px}@media(max-width:980px){#bpl .project-launcher--imagine .project-launcher__grid{grid-template-columns:repeat(2,minmax(0,1fr))}#bpl .all-projects__grid--lenses{grid-template-columns:1fr 1fr}#bpl .ava-play-console{grid-template-columns:1fr}}@media(max-width:760px){#bpl .project-launcher--imagine .project-launcher__grid{grid-template-columns:1fr}#bpl .all-projects__grid--lenses{grid-template-columns:1fr}#bpl .ava-play-console{padding:16px;width:94%}#bpl .ava-play-console__proof{grid-template-columns:1fr}}</style>
+
+<style id="github-pages-email-fix">
+#bpl .site-footer__links button{border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;text-underline-offset:.25em;padding:0}
+#bpl button.front-contact{appearance:none;background:transparent;border-top:0;border-left:0;border-right:0;cursor:pointer;margin:0}
+#bpl .site-footer__links button:hover,#bpl .site-footer__links button:focus-visible{color:inherit;text-decoration:underline}
+</style>
+
 </head>
 <body>
 <div data-bayou-portfolio-version="WAA-V44-Squarespace-v15-1" id="bpl"><a class="skip-link" href="#lab-selector">Skip to portfolio navigation</a>
 <main id="top"><section aria-labelledby="front-intro-title" class="front-intro"><header class="front-masthead front-masthead--quiet"><div class="front-masthead__identity"><strong id="front-intro-title">AMY WATSON-MARKLEY</strong>
 <span>Senior Technical Business Analyst · Business Systems &amp; Data Integration · AI-Enabled Solutions</span>
 <div class="front-contact-row"><a class="front-contact" href="https://www.linkedin.com/in/amy-j-watson/" rel="noopener noreferrer" target="_blank" aria-label="Open Amy Watson-Markley on LinkedIn"><svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M5.2 3.8a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.8h3.8V21H3.3V9.8Zm6.1 0h3.6v1.5h.1c.5-.9 1.8-1.9 3.8-1.9 4 0 4.8 2.6 4.8 6.1V21h-3.8v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V21H9.4V9.8Z"/></svg><span>LinkedIn ↗</span></a>
-<a class="front-contact" href="mailto:ajw9785@gmail.com" aria-label="Email Amy Watson-Markley"><svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M3 5h18v14H3V5Zm2 2v.3l7 4.8 7-4.8V7H5Zm14 10V9.7l-7 4.8-7-4.8V17h14Z"/></svg><span>Email ↗</span></a>
+<button class="front-contact" type="button" data-copy-email="ajw9785@gmail.com" aria-label="Copy Amy Watson-Markley email address"><svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M3 5h18v14H3V5Zm2 2v.3l7 4.8 7-4.8V7H5Zm14 10V9.7l-7 4.8-7-4.8V17h14Z"/></svg><span>Copy email</span></button>
 </div></div></header></section><section aria-labelledby="lab-selector-title" class="lab-selector lab-selector--balanced" id="lab-selector"><div class="lab-selector__inner"><header class="lab-selector__header lab-selector__header--front"><p class="lab-selector__eyebrow">SELECTED WORK</p>
 <h1 id="lab-selector-title">Start with the work.</h1>
 <p class="lab-selector__subline">Core systems cases first. Filter only if useful.</p>
@@ -1779,7 +1786,7 @@ renderScene();
 </div></div><footer class="site-footer"><div class="site-footer__brand">BAYOU CONNECTIONS</div><div class="site-footer__center"><span class="site-footer__principle">Curious by nature. Responsible by design. <strong>Always.</strong></span>
 <span class="site-footer__stay">Human direction. AI collaboration.</span>
 </div><nav class="site-footer__links" aria-label="Portfolio contact and navigation"><a href="https://www.linkedin.com/in/amy-j-watson/" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a>
-<a href="mailto:ajw9785@gmail.com">Email ↗</a>
+<button type="button" data-copy-email="ajw9785@gmail.com" aria-label="Copy Amy J. Watson-Markley email address">Copy email</button>
 <a href="#top">Back to top ↑</a>
 </nav></footer></div><script src="https://cdn.jsdelivr.net/npm/hls.js@1.7.2/dist/hls.min.js"></script>
 <script>(() => {
@@ -3338,5 +3345,38 @@ if(viewKey==='journey'){sideLabel.textContent='DATA JOURNEY';sideTitle.textConte
 function render(){const p=projects[projectKey];title.textContent=p.title;subtitle.textContent=p.subtitle;canvas.innerHTML='';if(p.zone){const [label,left,top,width,height]=p.zone,z=document.createElement('div');z.className='nerd-zone';Object.assign(z.style,{left:left+'px',top:top+'px',width:width+'px',height:height+'px'});z.innerHTML=`<span>${label}</span>`;canvas.appendChild(z)}p.edges.forEach(e=>canvas.appendChild(edgeEl(e[0],e[1],p.nodes)));p.nodes.forEach(n=>{const e=document.createElement('button');e.className='nerd-node';e.dataset.id=n.id;e.dataset.kind=n.k;e.style.left=n.x+'px';e.style.top=n.y+'px';e.innerHTML=`<div class="nerd-node__kicker">${n.kick}</div><div class="nerd-node__name">${n.name}</div><div class="nerd-node__mini">${n.mini}</div>`;e.addEventListener('click',()=>selectNode(n.id));canvas.appendChild(e)});renderLegend();applyView();requestAnimationFrame(fitMap)}
 projectButtons.forEach(b=>b.addEventListener('click',()=>{projectKey=b.dataset.nerdProject;projectButtons.forEach(x=>x.classList.toggle('is-active',x===b));render()}));viewButtons.forEach(b=>b.addEventListener('click',()=>{viewKey=b.dataset.nerdView;viewButtons.forEach(x=>x.classList.toggle('is-active',x===b));applyView()}));render();
 })();</script><script>(()=>{const root=document.getElementById('bpl');if(!root)return;const data={report:{choices:['Rebuild it immediately from the visible output','Find the source data and reconstruct what the report is actually doing','Ask users what they want the report to say'],path:[['SOURCE','What produced this?'],['EVIDENCE','What can be proven?'],['RULES','What logic is observable?'],['HUMAN','What still needs validation?']],answer:['Amy starts with the source of truth.','The visible report is evidence, not documentation. I work backward toward the data and logic, separate observed behavior from inferred intent, and then ask humans to validate the business meaning the system itself cannot prove.']},data:{choices:["Patch today’s file so the process runs",'Compare yesterday and today before changing anything','Standardize everything immediately'],path:[['COMPARE','What changed?'],['IDENTITY','Which fields are stable?'],['BOUNDARY','Where did the contract break?'],['RULE','How should change be handled next time?']],answer:['Amy establishes the change before repairing the symptom.','The first question is not “How do I make today’s file load?” It is “What changed, where, and was that change allowed?” That turns a one-day rescue into a reusable integration rule.']},ai:{choices:['Choose an AI model and prototype something impressive','Ask what decision or task is actually failing today','Feed the workflow into AI and see what appears'],path:[['PROBLEM','What needs improvement?'],['DATA','What would AI touch?'],['PERMISSION','What may it derive?'],['DESIGN','Where does human judgment stay?']],answer:['Amy does not start with the AI.','I start with the business problem, the data boundary, and permission. AI becomes one possible implementation choice—not the requirement itself. Capability does not automatically equal permission.']}};const mc=root.querySelector('#give-amy-a-mess');if(mc){const ws=mc.querySelector('[data-mess-workspace]'),choices=mc.querySelector('[data-mess-choices]'),reveal=mc.querySelector('[data-mess-reveal]'),path=mc.querySelector('[data-mess-path]'),answer=mc.querySelector('[data-mess-answer]');mc.querySelectorAll('[data-mess]').forEach(btn=>btn.addEventListener('click',()=>{mc.querySelectorAll('[data-mess]').forEach(b=>b.classList.toggle('is-active',b===btn));const s=data[btn.dataset.mess];choices.innerHTML=s.choices.map((c,i)=>`<button type="button" data-mess-choice="${i}">0${i+1} · ${c}</button>`).join('');ws.hidden=false;reveal.hidden=true;choices.querySelectorAll('[data-mess-choice]').forEach(c=>c.addEventListener('click',()=>{path.innerHTML=s.path.map((x,i)=>`<span><small>0${i+1} · ${x[0]}</small><b>${x[1]}</b></span>`).join('');answer.innerHTML=`<strong>${s.answer[0]}</strong>${s.answer[1]}`;reveal.hidden=false;}));}));mc.querySelector('[data-mess-reset]')?.addEventListener('click',()=>{ws.hidden=true;reveal.hidden=true;mc.querySelectorAll('[data-mess]').forEach(b=>b.classList.remove('is-active'));});}const modal=document.querySelector('[data-ava-game-modal]');const stop=()=>modal?.querySelector('#poofs-big-prank-v17 [data-action="stop-audio"]')?.click();root.querySelectorAll('[data-ava-game-open]').forEach(b=>b.addEventListener('click',()=>{if(typeof modal?.showModal==='function')modal.showModal();}));document.querySelector('[data-ava-game-close]')?.addEventListener('click',()=>{stop();modal?.close();});modal?.addEventListener('click',e=>{if(e.target===modal){stop();modal.close();}});})();</script>
+
+<script id="portfolio-copy-email">(() => {
+  const buttons = [...document.querySelectorAll('[data-copy-email]')];
+  if (!buttons.length) return;
+  const copy = async (text) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch (_error) {
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.setAttribute('readonly', '');
+      area.style.position = 'fixed';
+      area.style.opacity = '0';
+      document.body.appendChild(area);
+      area.select();
+      const ok = document.execCommand('copy');
+      area.remove();
+      return ok;
+    }
+  };
+  buttons.forEach((button) => {
+    const label = button.querySelector('span') || button;
+    const original = label.textContent;
+    button.addEventListener('click', async () => {
+      const email = button.dataset.copyEmail || '';
+      const ok = await copy(email);
+      label.textContent = ok ? 'Email copied ✓' : email;
+      window.setTimeout(() => { label.textContent = original; }, 2400);
+    });
+  });
+})();</script>
+
 </body>
 </html>
