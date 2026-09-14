@@ -36,3 +36,7 @@ This release keeps **one media-delivery pattern** for the portfolio: existing Sq
 Only the email interaction changed: email buttons now copy the public address instead of invoking a registered webmail handler.
 
 StreamScout media troubleshooting is intentionally separate from this release. Do not special-case one exhibit with a local MP4 while the rest of the portfolio still uses Squarespace HLS.
+
+## RC V2.2 StreamScout repair
+
+StreamScout uses the replacement Squarespace HLS asset while preserving the portfolio-wide media architecture. No local GitHub MP4 special case is used.

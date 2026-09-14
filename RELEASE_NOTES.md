@@ -26,3 +26,13 @@ Migrate approved media assets away from Squarespace, update references, then reg
 - Removes the proposed one-off local StreamScout MP4 approach.
 - Preserves the email "Copy email" fix.
 - StreamScout's failing HLS source should be diagnosed/repaired at the source rather than by introducing a unique hosting path.
+
+## RC V2.2 — StreamScout source repair
+
+- Replaced the stale StreamScout Squarespace HLS asset with:
+  `db0a1a2a-1865-4fe1-9900-564ef1b90b4f`
+- StreamScout remains on the same Squarespace HLS delivery pattern as the other portfolio videos.
+- Updated StreamScout to the reviewed 91.3-second Demo 1 V2 reel.
+- Reviewed chapter jumps:
+  FIND 00:07 · VERIFY 00:20 · STATE 00:23 · EXPERIENCE 00:25 · PROTECT 00:42 · GOVERN 01:28.
+- No other exhibit video source was changed.
