@@ -1,0 +1,25 @@
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies / generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local/private workspaces
+CODEX_PROJECT_AUDIT/
+private/
+research/
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+*.zip
