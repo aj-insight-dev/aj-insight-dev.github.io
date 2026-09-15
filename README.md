@@ -1,20 +1,36 @@
-# Amy Portfolio V16.2 — Lighthouse Surgical Pass
+# Amy Portfolio V16.2.2 — Demand Load
 
-Shared core SHA-256: `bb118a55f54ad7e0641e91254832fcbfd9de202ae0b5165b9609289be2957a6c`
+Final performance surgery on top of V16.2.1.
 
-Changes:
-- hidden StreamScout HLS seek removed from initial page startup
-- video preload changed to `none`
-- heavy thumbnail images request smaller Squarespace CDN renditions
-- hidden Bayou / Ear / Creative Studio launcher media is lazy-loaded
-- four small contrast corrections
-- visible keyboard focus for image inspection and Poof game buttons
-- reduced-motion coverage added to Poof's Big Prank
-- résumé remains one continuous two-page preview but is narrower (590px max)
-- availability line polished
-- GitHub title/meta/OG/Twitter metadata aligned
-- inline favicon added; no favicon asset is stored on GitHub
-- social share image currently uses the existing Squarespace corporate portrait
+## Exactly two behavioral changes
 
-GitHub deployment needs only `index.html` and `.nojekyll`.
-Squarespace uses `01_SINGLE_CODE_BLOCK_SQUARESPACE_V16_2.html`.
+### HLS
+`hls.min.js` is no longer a top-level page dependency.
+
+- Safari/native-HLS browsers use native playback without downloading hls.js.
+- Other browsers dynamically request hls.js only when a video actually needs to be prepared.
+- Existing HLS source, seeking, controls, timestamps and cleanup remain unchanged.
+
+### Résumé preview
+The small 300w front résumé thumbnail still loads normally.
+
+The two 1500w preview pages:
+- no longer have initial `src` attributes
+- reserve their document aspect ratio with width/height attributes
+- receive their real Squarespace `src` values the first time the résumé viewer opens
+- remain cached/reused after that first open
+
+The V16.2.1 fit-to-width résumé viewer is unchanged.
+
+## Everything else
+No layout, project, copy, metadata, accessibility, image-rendition, navigation or content changes from V16.2.1.
+
+Shared core SHA-256:
+`43b07d9aea99a183f18bb543df3798cfaa84309a8f6ccf26c78a621f2eea8215`
+
+GitHub deployment:
+- index.html
+- .nojekyll
+
+Squarespace:
+- 01_SINGLE_CODE_BLOCK_SQUARESPACE_V16_2_2.html
